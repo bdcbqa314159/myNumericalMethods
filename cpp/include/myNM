@@ -1,0 +1,41 @@
+#ifndef MY_NM_LIBRARY_H // update here
+#define MY_NM_LIBRARY_H
+
+#include "myNM_bits/standard.hpp"
+#include "myNM_bits/globalConstants.hpp"
+#include "myNM_bits/test.hpp"
+
+#include "myNM_bits/textFunctions.hpp"
+#include "myNM_bits/LineChart.hpp"
+#include "myNM_bits/Histogram.hpp"
+
+#include "myNM_bits/mathematics.hpp"
+#include "myNM_bits/RealFunction.hpp"
+#include "myNM_bits/RealFunction2D.hpp"
+
+#include "myNM_bits/BissectionMethod.hpp"
+#include "myNM_bits/RegulaFalsiMethod.hpp"
+#include "myNM_bits/NewtonRaphsonMethod.hpp"
+#include "myNM_bits/SecantMethod.hpp"
+#include "myNM_bits/PointFixedMethod.hpp"
+
+#include "myNM_bits/NumericalDifferentiation.hpp"
+#include "myNM_bits/ForwardDifferentiation.hpp"
+#include "myNM_bits/BackwardDifferentiation.hpp"
+#include "myNM_bits/CentralDifferentiation.hpp"
+
+#include "myNM_bits/EulerMethod.hpp"
+#include "myNM_bits/RungeKutta4Method.hpp"
+
+#include "myNM_bits/TrapezoidalMethod.hpp"
+#include "myNM_bits/Simpson1_3Method.hpp"
+#include "myNM_bits/Simpson3_8Method.hpp"
+
+#include "myNM_bits/LinearInterpolationMethod.hpp"
+#include "myNM_bits/LagrangeInterpolationMethod.hpp"
+
+#include "myNM_bits/LinearRegressionMethod.hpp"
+#include "myNM_bits/PolynomialFittingMethod.hpp"
+#include "myNM_bits/ExponentialFittingMethod.hpp"
+
+#endif
