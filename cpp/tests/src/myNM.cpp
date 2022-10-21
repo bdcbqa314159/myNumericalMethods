@@ -40,6 +40,9 @@ void testingSoftware()
     testLinearInterpolationMethod();
     testPolynomialFittingMethod();
     testExponentialFittingMethod();
+
+    cout << "Linear Algebra" << endl;
+    testVector();
 }
 
 int main()

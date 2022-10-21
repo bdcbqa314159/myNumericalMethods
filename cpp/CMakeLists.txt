@@ -55,6 +55,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/PolynomialFittingMethod.hpp
     ${PROJECT_INCLUDE_DIR}/ExponentialFittingMethod.hpp
 
+    ${PROJECT_INCLUDE_DIR}/Vector.hpp
+
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/LineChart.cpp
     ${PROJECT_SOURCE_DIR}/Histogram.cpp
@@ -86,6 +88,8 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/LinearRegressionMethod.cpp
     ${PROJECT_SOURCE_DIR}/PolynomialFittingMethod.cpp
     ${PROJECT_SOURCE_DIR}/ExponentialFittingMethod.cpp
+
+    ${PROJECT_SOURCE_DIR}/Vector.cpp
 )
 
 # Set up such that XCode organizes the files correctly
