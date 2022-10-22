@@ -53,7 +53,7 @@ public:
     void resize(size_t n)
     {
         dimension = n;
-        data.resize(n);
+        data = std::vector<double>(dimension, 0.);
     }
 };
 

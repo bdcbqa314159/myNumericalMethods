@@ -56,6 +56,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/ExponentialFittingMethod.hpp
 
     ${PROJECT_INCLUDE_DIR}/Vector.hpp
+    ${PROJECT_INCLUDE_DIR}/Matrix.hpp
 
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/LineChart.cpp
@@ -90,6 +91,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/ExponentialFittingMethod.cpp
 
     ${PROJECT_SOURCE_DIR}/Vector.cpp
+    ${PROJECT_SOURCE_DIR}/Matrix.cpp
 )
 
 # Set up such that XCode organizes the files correctly

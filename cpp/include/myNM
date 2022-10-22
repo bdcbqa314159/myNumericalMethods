@@ -39,5 +39,6 @@
 #include "myNM_bits/ExponentialFittingMethod.hpp"
 
 #include "myNM_bits/Vector.hpp"
+#include "myNM_bits/Matrix.hpp"
 
 #endif

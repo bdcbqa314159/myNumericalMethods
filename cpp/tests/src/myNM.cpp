@@ -43,6 +43,7 @@ void testingSoftware()
 
     cout << "Linear Algebra" << endl;
     testVector();
+    testMatrix();
 }
 
 int main()
